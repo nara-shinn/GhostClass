@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tags</title>
+    <style>
+        button[type=submit] {
+            width: 327px;
+            height: 52px;
+            background-color: tomato;
+            color: #fff;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: 0.4s;
+            border: none;
+        }
+
+        button[type=submit]:hover {
+            background-color: #bc371f;
+        }
+
+        input:focus {
+            background-color: #f3afa3;
+        }
+
+    </style>
+
+</head>
+<body>
+    <form id="loginForm" action="./login.html">
+        <input type="text" placeholder="아이디 입력" required>
+        <input type="password" placeholder="비밀번호 입력" required>
+
+        <input type="file">
+
+        <button type="button">범용버튼</button>
+        <button type="reset">리셋버튼</button>
+        <button type="submit">LOGIN</button>
+    </form>
+
+    <select>
+        <option>Korean</option>
+        <option>English</option>
+        <option>English</option>
+        <option>English</option>
+        <option>English</option>
+        <option>English</option>
+        <option>English</option>
+    </select>
+
+    <textarea></textarea>
+
+    <form>
+        <input type="text" placeholder="오늘할일" required>
+        <textarea placeholder="TODO 상세내용"></textarea>
+
+        <button type="button">취소</button>
+        <button type="submit">SAVE</button>
+        </form>
+
+    </form>
+
+</body>
+
+</html>
